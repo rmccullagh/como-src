@@ -39,4 +39,5 @@ typedef struct como_value {
 #define COMO_VALUE_BOOL(p) p->value.bool_value
 #define COMO_VALUE_POINTER(p) p->value.pointer_value
 
+#define COMO_LONG(n) n##L
 #endif
